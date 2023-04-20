@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.row,
+.row::after,
+.row::before{
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.mb-70{
+    margin-bottom: 70px;
+}
+
+[class^="col-"]{
+    padding: 0px 15px;
+    float: left;
+}
+
+.offset-2{
+    margin-left: calc(100% * 2 / 12);
+}
+/* .col-2{
+    width: calc(100% * 2 / 12);
+} */
+
+.col-3{
+    width: calc(100% * 3 / 12);
+}
+
+.col-4{
+    width: calc(100% * 4 / 12);
+}
+
+.col-5{
+    width: calc(100% * 5 / 12);
+}
+/* 
+.col-6{
+    width: calc(100% * 6 / 12);
+} */
+/* 
+.col-7{
+    width: calc(100% * 7 / 12);
+} */
+/* 
+.col-8{
+    width: calc(100% * 8 / 12);
+} */
+
+.col-9{
+    width: calc(100% * 9 / 12);
+}
+
+.col-10{
+    width: calc(100% * 10 / 12);
+}
+/* 
+.col-11{
+    width: calc(100% * 11 / 12);
+} */
+/* 
+.col-12{
+    width: calc(100% * 12 / 12);
+} */
+
+/*section-1*/
+
+.heroImg{
+    background-color: #fcdb00;
+    padding: 60px 0px 100px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 35px;
+    /* margin-right: 13px; */
+    /* min-width: 118px; */
+}
+/* 
+.navbar li:last-child{
+    margin-right: 0;
+} */
+
+.navbar li:not(:last-child){
+    margin-right: 15px !important;
+}
+
+.navbar li a:link, .navbar li a:visited{
+    text-decoration: none;
+    color: #010101;
+    font-size:22px;
+    font-weight:bold;
+    padding: 17.5px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.navbar a:hover{
+    font-weight: lighter;
+}
+
+.pri-heading{
+   font-size: 32px;
+   font-weight: bold;
+   color: #010101;
+   margin-bottom: 20px;
+}
+
+.sec-heading{
+   font-size: 20px;
+   font-weight: regular;
+   color:#313841; 
+   margin-bottom: 22px;
+}
+
+.para{
+    font-size: 16px;
+    font-weight: regular;
+    color:#555555;  
+    margin-bottom: 40px;
+}
+
+.inspire{
+    margin-top: 70px;
+}
+
+.iconList{
+    list-style: none;
+}
+
+.iconList li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.iconList li i{
+    /* font-size: 40px; */
+    color: #010101;
+}
+
+.inspire, .iPad{
+    margin-left: 17.5px;
+}
+
+/*section-2*/
+.features{
+    padding: 120px 0px 160px;
+}
+
+.offset-1{
+    margin-left: calc(100% * 1 / 12);
+}
+
+.features, .text-center{
+    text-align: center;
+}
+
+.px-50{
+    padding: 0px 50px;
+}
+
+.thumbContent > h3{
+    color:#010101;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.thumbContent > p{
+    color: #898989;;
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 85px;
+}
+
+.thumbNail, .thumbContent, p{
+    margin-bottom: 75px;
+}
+
+/*section-3*/
+
+.contact{
+    padding: 95px 0 135px;
+    background-color: #010101;
+}
+
+.contact .pri-heading {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact .sec-heading {
+    color: #898989;
+    font-size: 20px;
+    font-weight: regular;
+    margin-bottom: 35px;
+}
+
+.form-group{
+    margin-bottom: 75px;
+}
+
+.email, .btn-primary{
+    height: 50px;/*when gives height then not gives padding top bottom*/
+    border-radius: 5px;
+}
+
+.email{
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width: calc(100% - 150px);/*to due border issue thats why increasing in btn width and margin left.*/
+    padding: 0px 25px;/*when we applying height then there not applying padding top and bottom. */
+}
+
+.btn-primary{
+    width: 125px;
+    text-align: center;
+    background-color: #fcdb00;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* padding: 0px 35px; */
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.email::placeholder{
+    color: #898989;
+}
+/* 
+.contact .iconList a:link, .a:visited{
+    color: #fcdb00;
+    text-align: center;
+} */
+
+.contact .iconList i{
+    color: #fcdb00;
+}
+
+.contact, .iconList{
+    text-align: center;
+}
+
+.mb-135{
+    margin-bottom: 135px;
+}
+
+.footerLinks{
+    list-style: none;
+}
+
+.footerLinks li, .footerLinks li a:link, .footerLinks li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
